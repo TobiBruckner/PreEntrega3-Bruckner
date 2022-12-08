@@ -5,7 +5,13 @@
 #lista1 li {display: inline; padding-left: 3px; padding-right: 3px;}
 .a{color: white;}
 .texto{font-family: 'Roboto', sans-serif;}
-.foto{border-radius: 20px;}
+
+.foto{
+    border-radius: 20px;
+    max-width: 90%;
+
+}
+
 .video{border-radius: 20px;}
 .tabla{margin:auto; border-style: dashed; border-color: blueviolet;}
 .tabla2{margin:auto;border-style: dotted; border-color: green;}
