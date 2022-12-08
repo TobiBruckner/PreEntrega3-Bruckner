@@ -1,0 +1,26 @@
+.fondo{background-color: burlywood;}
+.contenido{text-align: center;}
+.titulos{font-family: 'Comic Neue', cursive;}
+.lista{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px; text-align: center;}
+#lista1 li {display: inline; padding-left: 3px; padding-right: 3px;}
+.a{color: white;}
+.texto{font-family: 'Roboto', sans-serif;}
+.foto{border-radius: 20px;}
+.video{border-radius: 20px;}
+.tabla{margin:auto; border-style: dashed; border-color: blueviolet;}
+.tabla2{margin:auto;border-style: dotted; border-color: green;}
+.historia__titulo{ font-family: Georgia, 'Times New Roman', Times, serif;}
+.historia__texto{ font-family: Arial, Helvetica, sans-serif;}
+.span{background-color: yellow;}
+.historia__foto{border-radius: 20px; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; padding-right: 15px; margin-bottom: 40px;}
+.container{text-align: center;}
+.span1{display: block; color: red;}
+.texto2{display: inline; background-color:cyan;}
+.span3{display: none;}
+.historia__video{border-radius: 20px; margin-top: 20px; margin-bottom: 20px;}
+#subtitulo{position:sticky;top: 20px; color: red; }
+#redes{font-family: 'Comic Neue', cursive;}
+.icono{width: 2.4%; margin:0%;}
+.copy{font-size: 15px;font-family: 'Roboto', sans-serif}
+
+
