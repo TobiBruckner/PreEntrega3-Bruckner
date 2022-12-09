@@ -60,6 +60,13 @@
 .video{
     border-radius: 20px;
 }
+.video1{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
 .tabla{
     margin:auto; 
     border-style: dashed; 
