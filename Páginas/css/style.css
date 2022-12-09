@@ -14,10 +14,14 @@
 .fondo{
     background-color: burlywood;
 }
-
 .titulos{
     font-family: 'Comic Neue', cursive;
     text-align: center;
+    transition: 1s linear;
+}
+.titulos:hover{
+    transform: scale(.5);
+    cursor: pointer;
 }
 .lista{
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -38,11 +42,14 @@
     max-width: 90%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    transition: all .5s;
 }
-
+.texto:hover{
+    color: white;
+    cursor: pointer;
+}
 .foto{
    padding-bottom: 20px;
-    
 }
 .imagen{
     border-radius: 20px;
@@ -66,7 +73,6 @@
     margin: auto;
     max-width: 90%;
 }
-
 .tabla{
     margin:auto; 
     border-style: dashed; 
@@ -77,77 +83,29 @@
     border-style: dotted;
     border-color: green;
     }
-.historia__titulo{ 
-   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.historia__texto{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.span{
-    background-color: yellow;
-}
 .historia__foto{
     border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 40px;
 }
-.container{
-    text-align: center;
-}
-.span1{
-    display: block; 
-    color: red;
-}
-.texto2{
-    display: inline;
-    background-color:cyan;
-}
-.span3{
-    display: none;
-}
 .historia__video{
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-#subtitulo{
-    position:sticky;
-    top: 20px; 
-    color: red;
-    text-align: center;
-}
-
-.formulario__formato {
-    
-    background-color: burlywood;
-
-  }
-  
-  .formulario {
-    background-color: burlywood;
+    display: block;
+    margin: auto;
     max-width: 90%;
+}
+.form{
     text-align: center;
-    
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-    
-  .formulario fieldset {
-    border: none;
-  }
-  
-  .formulario__legend {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #FFF;
-  }
-
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
 #redes{
     font-family: 'Comic Neue', cursive;
     text-align: center;
@@ -157,13 +115,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
-    
 }
 .icono-social{
-    
     width: 30px;
  }
-
 .copy{
     text-align: center;
     font-size: 15px;
