@@ -1,4 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .fondo{
     background-color: burlywood;
@@ -40,20 +51,61 @@
     max-width: 90%;
 }
 
+.mapa {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
 .video{
     border-radius: 20px;
 }
-.tabla{margin:auto; border-style: dashed; border-color: blueviolet;}
-.tabla2{margin:auto;border-style: dotted; border-color: green;}
-.historia__titulo{ font-family: Georgia, 'Times New Roman', Times, serif;}
-.historia__texto{ font-family: Arial, Helvetica, sans-serif;}
-.span{background-color: yellow;}
-.historia__foto{border-radius: 20px; padding-bottom: 15px; padding-top: 15px; padding-left: 15px; padding-right: 15px; margin-bottom: 40px;}
-.container{text-align: center;}
-.span1{display: block; color: red;}
-.texto2{display: inline; background-color:cyan;}
-.span3{display: none;}
-.historia__video{border-radius: 20px; margin-top: 20px; margin-bottom: 20px;}
+.tabla{
+    margin:auto; 
+    border-style: dashed; 
+    border-color: blueviolet;
+}
+.tabla2{
+    margin:auto;
+    border-style: dotted;
+    border-color: green;
+    }
+.historia__titulo{ 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.historia__texto{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.span{
+    background-color: yellow;
+}
+.historia__foto{
+    border-radius: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+.container{
+    text-align: center;
+}
+.span1{
+    display: block; 
+    color: red;
+}
+.texto2{
+    display: inline;
+    background-color:cyan;
+}
+.span3{
+    display: none;
+}
+.historia__video{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 #subtitulo{
     position:sticky;
     top: 20px; 
@@ -62,25 +114,21 @@
 }
 
 .formulario__formato {
+    
     background-color: burlywood;
+
   }
   
   .formulario {
     background-color: burlywood;
-    width: 600px;
-    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+    
     padding: 20px;
     border-radius: 10px;
   }
   
-  .formulario__contacto {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    color: #FFF;
-    font-size: 30px;
-  }
-  
+    
   .formulario fieldset {
     border: none;
   }
@@ -93,12 +141,24 @@
     color: #FFF;
   }
 
-#redes{font-family: 'Comic Neue', cursive;}
-.icono{
-    width: 20px; 
-    margin:0%;
+#redes{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
 }
+.icono{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    
+}
+.icono-social{
+    
+    width: 30px;
+ }
+
 .copy{
+    text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
