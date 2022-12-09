@@ -1,18 +1,48 @@
-.fondo{background-color: burlywood;}
-.contenido{text-align: center;}
-.titulos{font-family: 'Comic Neue', cursive;}
-.lista{font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px; text-align: center;}
-#lista1 li {display: inline; padding-left: 3px; padding-right: 3px;}
-.a{color: white;}
-.texto{font-family: 'Roboto', sans-serif;}
 
-.foto{
-    border-radius: 20px;
-    max-width: 90%;
 
+.fondo{
+    background-color: burlywood;
 }
 
-.video{border-radius: 20px;}
+.titulos{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+}
+.lista{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-align: center;
+}
+#lista1 li {
+    display: inline; 
+    padding-left: 3px; 
+    padding-right: 3px;
+}
+.a{
+    color: white;
+}
+.texto{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.foto{
+   padding-bottom: 20px;
+    
+}
+.imagen{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+.video{
+    border-radius: 20px;
+}
 .tabla{margin:auto; border-style: dashed; border-color: blueviolet;}
 .tabla2{margin:auto;border-style: dotted; border-color: green;}
 .historia__titulo{ font-family: Georgia, 'Times New Roman', Times, serif;}
@@ -24,9 +54,53 @@
 .texto2{display: inline; background-color:cyan;}
 .span3{display: none;}
 .historia__video{border-radius: 20px; margin-top: 20px; margin-bottom: 20px;}
-#subtitulo{position:sticky;top: 20px; color: red; }
+#subtitulo{
+    position:sticky;
+    top: 20px; 
+    color: red;
+    text-align: center;
+}
+
+.formulario__formato {
+    background-color: burlywood;
+  }
+  
+  .formulario {
+    background-color: burlywood;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .formulario__contacto {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #FFF;
+    font-size: 30px;
+  }
+  
+  .formulario fieldset {
+    border: none;
+  }
+  
+  .formulario__legend {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFF;
+  }
+
 #redes{font-family: 'Comic Neue', cursive;}
-.icono{width: 2.4%; margin:0%;}
-.copy{font-size: 15px;font-family: 'Roboto', sans-serif}
+.icono{
+    width: 20px; 
+    margin:0%;
+}
+.copy{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
 
 

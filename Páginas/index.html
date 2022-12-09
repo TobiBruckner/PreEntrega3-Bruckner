@@ -15,7 +15,6 @@
 <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2847/2847520.png" type="image/x-icon">
 </head>
 <body class="fondo">
-    <div class="contenido">
         <u><h1 class="titulos">El mundo del cómic</h1></u>
         <div class="lista">
             <ul id="lista1">
@@ -26,46 +25,87 @@
             <li><a href="historia.html" class="a">Nuestra historia</a></li>
             </ul>
            </div>
+
     <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor harum, necessitatibus unde ullam sapiente quis explicabo eum sit, dolores tempore ab temporibus neque placeat provident excepturi nostrum voluptas. Iste, repudiandae.</p>
+
     <u><h2 class="titulos">¿Qué es el mundo del cómic?</h2></u>
+
     <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consequatur provident voluptas quisquam vel voluptatem, quos culpa dolorum delectus corrupti saepe nobis, cupiditate recusandae beatae aliquam assumenda velit dignissimos tempora.</p>
-    <img src="./images/1988-killing-joke.jpg" alt="" class="foto">
+    <div class="foto">
+        <img class="imagen" src="./images/1988-killing-joke.jpg" alt="imagen joker">
+    </div>
     <u><h2 class="titulos">Novedades del cómic americano</h2></u>
     <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum animi necessitatibus rerum, aperiam ab delectus, voluptatibus et officia blanditiis id magnam! Minus cupiditate odio perferendis soluta totam consectetur quam!</p>
-    <img src="./images/Spidey_01.jpg" alt="" class="foto">
+    <img src="./images/Spidey_01.jpg" alt="" class="imagen spiderman">
     <u><h2 class="titulos">¿Cómo encontrarnos?</h2></u>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.180709653103!2d-58.37745798417494!3d-34.59959166478806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc6819c78d%3A0x4e76ee844cc7d580!2sLa%20Revisteria%20Comics!5e0!3m2!1ses-419!2sar!4v1668444746982!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="foto"></iframe>
+    <br>
+    <!-- Formulario -->
     <u><h2 class="titulos">Registrate para recibir notificaciones</h2></u>
 
-    <form method="POST" action="https://formspree.io/f/xgedpqlg" class="form">
-        <label class="name">Ingresa tu nombre :</label><br>
-        <input type="text" name="nombre" placeholder="Nombre y Apellido" required="">
-        <br>
-        <label class="mail">Ingresa tu mail:</label>
-        <br>
-        <input type="text" name="email" placeholder="Email" required="">
-        <br>
-        <label class="phone">Ingresa tu teléfono:</label>
-        <br>
-        <input type="number" name="teléfono" placeholder="Teléfono" required="">
-        <br>
-        <label class="comentario">Comentá si querés hacer alguna consulta:</label>
-        <br>
-        <textarea  name="descipción" cols="40" rows="10"></textarea> <br>
-        <input type="submit">
-        <input type="reset" value="Limpiar formulario">
-        <br>
-        <label for="checkbox">Acepto las bases y condiciones</label>
-        <input id="checkbox" name="mailing" type="checkbox" value="consent" required=""> 
-    </form>
+    <div class="formulario__formato">
+        <section class="formulario" >
+            <form action="https://formspree.io/f/xwkzrggr" method="POST">
+            <fieldset>
+                         
+                <div class="formulario__campos">
+                    <div class="campo">
+                    <label for="">Nombre y Apellido</label>
+                    <input class="formulario__input" type="text" placeholder="Ingresa tu nombre y apellido" name="name" />
+                    </div>
+                    <div class="campo">
+                    <label for="">Teléfono</label>
+                    <input class="formulario__input" type="tel" placeholder="Ingresa tu número de teléfono" name="telefono" />
+                    </div>
+                    <div class="campo">
+                    <label for="">Correo electrónico</label>
+                    <input class="formulario__input" type="email" placeholder="Ingresa tu correo electrónico" name="email"/>
+                    </div>
+                    <div class="campo">
+                    <label for="">Comentarios</label>
+                    <textarea class="formulario__input" name="message" id="" cols="30" rows="5" name="message"></textarea>
+                    </div>
+                </div>    
+                <div class="enviar">
+                    <input class="boton" type="submit" value="Enviar" />
+                </div>
+            </fieldset>
+            </form>
+        </section>
+    </div>
 
+    <!--<div class="form">
+        <form method="POST" action="https://formspree.io/f/xgedpqlg">
+            <label class="name">Ingresa tu nombre :</label><br>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" required="">
+            <br>
+            <label class="mail">Ingresa tu mail:</label>
+            <br>
+            <input type="text" name="email" placeholder="Email" required="">
+            <br>
+            <label class="phone">Ingresa tu teléfono:</label>
+            <br>
+            <input type="number" name="teléfono" placeholder="Teléfono" required="">
+            <br>
+            <label class="comentario">Comentá si querés hacer alguna consulta:</label>
+            <br>
+            <textarea  name="descipción" cols="40" rows="10"></textarea> <br>
+            <input type="submit">
+            <input type="reset" value="Limpiar formulario">
+            <br>
+            <label for="checkbox">Acepto las bases y condiciones</label>
+            <input id="checkbox" name="mailing" type="checkbox" value="consent" required=""> 
+        </form>
+    </div> -->
+
+    <!-- Footer -->
     <hr id="hr">
     <div id="redes"><u><h3>Redes sociales</h3></u></div>
     <a href="https://www.facebook.com/Coderhouse"><img class="icono" src="https://cdn-icons-png.flaticon.com/512/20/20673.png"></a>
     <a href="https://www.instagram.com/coderhouse/?hl=es"><img class="icono" src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></a>
     <a href="https://twitter.com/coderhouse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="icono" src="https://cdn-icons-png.flaticon.com/512/81/81725.png"></a>
+
     <b><p class="copy">Tobias Bruckner Copyright© 2022</p></b>
-    </div>
 
 
 </body>
