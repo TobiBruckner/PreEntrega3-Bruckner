@@ -1,18 +1,5 @@
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.fondo {
-  background-color: #e9d1b2; }
-
 .titulos {
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
   text-align: center;
   font-size: 90px;
   transition: 1s linear; }
@@ -21,7 +8,7 @@
     cursor: pointer; }
 
 .subtitulos {
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
   text-align: center;
   font-size: 30px;
   transition: 1s linear; }
@@ -44,12 +31,25 @@
   margin: auto;
   max-width: 90%;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   transition: all .5s; }
   .texto:hover {
     cursor: pointer;
     color: white; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondo {
+  background-color: #e9d1b2; }
 
 .foto {
   padding-bottom: 20px; }

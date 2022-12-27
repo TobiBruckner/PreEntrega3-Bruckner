@@ -1,67 +1,19 @@
+//VARIABLES
+@import "variables";
+//ANIDACIONES
+@import "anidaciones";
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-//VARIABLES
-$color-principal: rgb(233, 209, 178);
-$color-letra: rgb(255, 255, 255);
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .fondo{
-   background-color:  $color-principal;
-}
-//ANIDACIÓN 1
-.titulos{
-    font-family: 'Comic Neue', cursive;
-    text-align: center;
-    font-size:90px;
-    transition: 1s linear;
-              &:hover{
-                transform: scale(.5);
-                cursor: pointer;
-              }
-}
-//ANIDACIÓN 2
-.subtitulos{
-    font-family: 'Comic Neue', cursive;
-    text-align: center;
-    font-size: 30px;
-    transition: 1s linear;
-              &:hover{
-                transform: scale(.5);
-                cursor: pointer;
-              }
-}
-//ANIDACIÓN 3
-.lista{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: 20px; 
-    text-align: center;
-
-    ul li a{
-        display: inline; 
-        padding-left: 3px; 
-        padding-right: 3px;
-        color: $color-letra;
-    }
-}
-//ANIDACIÓN 4
-.texto{
-    display: block;
-    margin: auto;
-    max-width: 90%;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    transition: all .5s;
-              &:hover{
-                cursor: pointer;
-                color: $color-letra;
-              }
+   background-color: $color-principal;
 }
 .foto{
    padding-bottom: 20px;
