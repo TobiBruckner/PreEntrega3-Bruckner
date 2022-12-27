@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fondo{
+    background-color: burlywood;
+}
+.titulos{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    transition: 1s linear;
+}
+.titulos:hover{
+    transform: scale(.5);
+    cursor: pointer;
+}
+.subtitulos{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    font-size: 30px;
+    transition: 1s linear;
+}
+.subtitulos:hover{
+    transform: scale(.5);
+    cursor: pointer;
+}
+.lista{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    text-align: center;
+}
+#ul li {
+    display: inline; 
+    padding-left: 3px; 
+    padding-right: 3px;
+}
+.a{
+    color: white;
+}
+.texto{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition: all .5s;
+}
+.texto:hover{
+    color: white;
+    cursor: pointer;
+}
+.foto{
+   padding-bottom: 20px;
+}
+.imagen{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+
+.mapa {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+.video{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+.tabla{
+    margin:auto; 
+    border-style: dashed; 
+    border-color: blueviolet;
+}
+.tabla2{
+    margin:auto;
+    border-style: dotted;
+    border-color: green;
+    }
+.historia__foto{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+.historia__video{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+.form{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 90%;
+}
+#redes{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+}
+.icono{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+.icono-social{
+    width: 30px;
+ }
+.copy{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
