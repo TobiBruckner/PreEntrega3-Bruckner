@@ -10,17 +10,6 @@
               }
 }
 //ANIDACIÓN 2
-.subtitulos{
-    font-family: $fuente-subtitulo;
-    text-align: center;
-    font-size: $tamaño-subtitulo;
-    transition: 1s linear;
-              &:hover{
-                transform: scale(.5);
-                cursor: pointer;
-              }
-}
-//ANIDACIÓN 3
 .texto{
     display: block;
     margin: auto;

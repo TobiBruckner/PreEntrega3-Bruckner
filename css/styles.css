@@ -11,10 +11,7 @@
   font-family: "Comic Neue", cursive;
   text-align: center;
   font-size: 40px;
-  transition: 1s linear; }
-  .subtitulos:hover {
-    transform: scale(0.5);
-    cursor: pointer; }
+}
 
 .texto {
   display: block;

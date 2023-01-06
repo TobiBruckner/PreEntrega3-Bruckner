@@ -12,6 +12,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.subtitulos {
+    font-family: "Comic Neue", cursive;
+    text-align: center;
+    font-size: 40px;
+}
 .fondo{
    background-color: $color-principal;
 }
