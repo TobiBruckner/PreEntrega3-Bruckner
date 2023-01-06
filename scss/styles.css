@@ -90,12 +90,12 @@
 .tabla {
   margin: auto;
   border-style: dashed;
-  border-color: rgba(235, 213, 20, 0.856);
+  border-color: blueviolet;
 }
 
 .tabla2 {
   margin: auto;
-  border-style: dotted;
+  border-style: dashed;
   border-color: green;
 }
 
