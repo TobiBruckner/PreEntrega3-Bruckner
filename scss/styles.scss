@@ -88,3 +88,16 @@
     font-size: 15px;
     font-family: $fuente-pie;
 }
+.lista {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center; }
+  
+.lista ul li {
+   display: inline;
+   padding-left: 3px;
+   padding-right: 3px;
+}
+.lista ul li a {
+    color: white;
+}

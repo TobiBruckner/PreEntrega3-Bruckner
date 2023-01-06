@@ -1,7 +1,7 @@
 .titulos {
   font-family: "Comic Neue", cursive;
   text-align: center;
-  font-size: 90px;
+  font-size: 70px;
   transition: 1s linear; }
   .titulos:hover {
     transform: scale(0.5);
@@ -10,21 +10,11 @@
 .subtitulos {
   font-family: "Comic Neue", cursive;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   transition: 1s linear; }
   .subtitulos:hover {
     transform: scale(0.5);
     cursor: pointer; }
-
-.lista {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  text-align: center; }
-  .lista ul li a {
-    display: inline;
-    padding-left: 3px;
-    padding-right: 3px;
-    color: white; }
 
 .texto {
   display: block;
@@ -36,7 +26,7 @@
   transition: all .5s; }
   .texto:hover {
     cursor: pointer;
-    color: white; }
+    color: #fdfdfd; }
 
 *,
 *::before,
@@ -79,7 +69,7 @@
 
 .tabla2 {
   margin: auto;
-  border-style: dotted;
+  border-style: dashed;
   border-color: green; }
 
 .historia__foto {
@@ -106,7 +96,7 @@
   max-width: 90%; }
 
 #redes {
-  font-family: 'Comic Neue', cursive;
+  font-family: "Comic Neue", cursive;
   text-align: center; }
 
 .icono {
@@ -121,4 +111,17 @@
 .copy {
   text-align: center;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: "Comic Neue", cursive; }
+
+.lista {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center; }
+
+.lista ul li {
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+.lista ul li a {
+  color: white; }

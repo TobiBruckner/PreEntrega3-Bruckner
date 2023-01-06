@@ -21,19 +21,6 @@
               }
 }
 //ANIDACIÓN 3
-.lista{
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-size: $tamaño-texto; 
-    text-align: center;
-
-    ul li a{
-        display: inline; 
-        padding-left: 3px; 
-        padding-right: 3px;
-        color: $color-letra;
-    }
-}
-//ANIDACIÓN 4
 .texto{
     display: block;
     margin: auto;
