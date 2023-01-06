@@ -71,7 +71,7 @@
     max-width: 90%;
 }
 #redes{
-    font-family: 'Comic Neue', cursive;
+    font-family: $fuente-pie;
     text-align: center;
 }
 .icono{
@@ -86,5 +86,5 @@
 .copy{
     text-align: center;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $fuente-pie;
 }

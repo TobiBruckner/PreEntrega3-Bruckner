@@ -1,5 +1,5 @@
 {
-  "name": "preentrega3-bruckner",
+  "name": "proyectofinal-bruckner",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TobiBruckner/PreEntrega2-Bruckner.git"
+    "url": "git+https://github.com/TobiBruckner/ProyectoFinal-Bruckner.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TobiBruckner/PreEntrega2-Bruckner/issues"
+    "url": "https://github.com/TobiBruckner/ProyectoFinal-Bruckner/issues"
   },
-  "homepage": "https://github.com/TobiBruckner/PreEntrega2-Bruckner#readme",
+  "homepage": "https://github.com/TobiBruckner/ProyectoFinal-Bruckner#readme",
   "keywords": [],
   "description": "",
   "dependencies": {
