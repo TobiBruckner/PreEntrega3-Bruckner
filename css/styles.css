@@ -62,12 +62,12 @@
 .tabla {
   margin: auto;
   border-style: dashed;
-  border-color: blueviolet; }
+  border-color: rgb(255, 255, 255); }
 
 .tabla2 {
   margin: auto;
   border-style: dashed;
-  border-color: green; }
+  border-color: rgb(255, 255, 255); }
 
 .historia__foto {
   border-radius: 20px;
