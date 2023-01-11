@@ -20,27 +20,48 @@
 .fondo{
    background-color: $color-principal;
 }
-.foto{
-   padding-bottom: 20px;
-}
-.imagen{
-    border-radius: 20px;
-    display: block;
+.flex{  
     margin: auto;
-    max-width: 90%;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 50%;
+}
+@media (max-width:600px){
+    .col{
+        flex: 100%;
+    }
+}
+.img{
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 
 .mapa {
-    border-radius: 20px;
-    display: block;
-    margin: auto;
-    max-width: 90%;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 80px;
+    width: 100%;
 }
 .video{
-    border-radius: 20px;
-    display: block;
-    margin: auto;
-    max-width: 90%;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 .tabla{
     margin:auto; 
@@ -53,27 +74,28 @@
     border-color: rgb(255, 255, 255);
     }
 .historia__foto{
-    border-radius: 20px;
-    display: block;
-    margin: auto;
-    max-width: 90%;
+    border-radius: 40px;
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-bottom: 40px;
+    width: 100%;
 }
 .historia__video{
-    border-radius: 20px;
-    display: block;
-    margin: auto;
-    max-width: 90%;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 .form{
     text-align: center;
-    display: block;
-    margin: auto;
-    max-width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
 }
 #redes{
     font-family: $fuente-pie;
